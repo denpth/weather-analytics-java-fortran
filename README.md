@@ -1,10 +1,46 @@
-<strong> **DO NOT DISTRIBUTE OR PUBLICLY POST SOLUTIONS TO THESE LABS. MAKE ALL FORKS OF THIS REPOSITORY WITH SOLUTION CODE PRIVATE. PLEASE REFER TO THE STUDENT CODE OF CONDUCT AND ETHICAL EXPECTATIONS FOR COLLEGE OF INFORMATION TECHNOLOGY STUDENTS FOR SPECIFICS. ** </strong>
+# Weather Analytics in Java and Fortran
 
-# WESTERN GOVERNORS UNIVERSITY
+A small cross-language programming project that implements the same weather-data concepts in Java and Fortran. It provides a compact comparison of object-oriented and procedural approaches to representing and analyzing a weekly forecast.
 
-## D793 - FORMAL LANGUAGES OVERVIEW
+## What it does
 
-Welcome to D793 Formal Languages Overview!
+- Stores daily high and low temperatures
+- Calculates weekly average highs and lows
+- Finds weekly maximum and minimum temperatures
+- Maps compact weather codes to readable descriptions
+- Prints daily and weekly forecast summaries
+- Includes a Java test implementation
+- Includes equivalent Java and Fortran source paths for comparison
 
-For specific task instructions and requirements for this assessment, please refer to the course page.
+## Java
 
+Key files:
+
+- `Main.java`
+- `Weather.java`
+- `WeatherTest.java`
+
+Compile and run:
+
+```bash
+javac Main.java Weather.java
+java Main
+```
+
+## Fortran
+
+Key files:
+
+- `main.f90`
+- `weather.f90`
+
+With `gfortran` installed:
+
+```bash
+gfortran weather.f90 main.f90 -o weather
+./weather
+```
+
+## Purpose
+
+The repository is primarily useful as a language-comparison exercise: the same small domain is expressed using Java classes and methods on one side and a Fortran implementation on the other, making differences in structure, typing, state, and program organization easy to inspect.
