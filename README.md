@@ -1,5 +1,10 @@
 # Weather Analytics in Java and Fortran
 
+## Project context
+
+Developed during Western Governors University coursework. This repository is a record of my implementation and learning, not a client engagement, deployed operational system, or claim of a new algorithm. Supplied requirements, starter components, datasets, and third-party libraries are distinct from my own implementation. Where their exact provenance or redistribution terms have not been established, they are not represented as my original work or as cleared for public release.
+
+
 A small cross-language programming project that implements the same weather-data concepts in Java and Fortran. It provides a compact comparison of object-oriented and procedural approaches to representing and analyzing a weekly forecast.
 
 ## What it does
